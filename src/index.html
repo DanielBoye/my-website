@@ -4,22 +4,25 @@
   <title>90s style website</title>
 </head>
 
-<body bgcolor="khaki" text="darkred" link="mediumblue" vlink="darkblue" alink="red">
+<body>
 
   <p class="welcome">
     daniel boye
   </p>
 
-    <table>
+    <table class="links">
       <tr>
-        <td class="links">
+        <td >
           
             <a href="https://www.linkedin.com/in/danielboye/">LinkedIn</a><br><br>
             <a href="https://github.com/DanielBoye">GitHub</a><br><br>
             <a href="https://caesarchiffer.netlify.app/">Portfolio</a>
          
         </td>
-
+      <tr>
+    </table>
+    <table> 
+      <tr> 
         <td class="intro-text">
             <p>Hello and welcome <br><br>
               Daniel Boye is 16 years old and <br>
@@ -29,12 +32,19 @@
               Just check out his work on <a href link="https://github.com/DanielBoye">GitHub!</a> <br>
               <img class="daniel-picture" src="daniel_in_suit.jpg"> <br><br>
               On the software development side he have been learning C, C++ and is dipping his toes in web development. <br>
-              His semester assignment in programming is done, and you can check that out later ;) <br><br>
-              The assignment is build just with html, css and js, <br>
+              His semester assignment in programming is done, and you can check that out later ;) <br>
+              It's not built in Svelte, but in the future......<br><br>
+              The semester assignment is just build  with html, css and js, <br>
               but it encrypts your messages in the caesar chiper. <br><br>
               On the hacking side, <br>
               I could not tell you what he does ;) <br><br> 
-              This site was inspired by websites made in 90's<br>
+              Daniel is also very committed to security and privacy, <br>
+              and is a heavy supporter of FOSS and the Monero project. <br><br>
+              This site was inspired by websites made in 90's<br><br>
+              Donate: <br>
+              BTC: bc1q45dq7rd3q5papsmpu758vt5frcghy6f6u04cgm <br>
+              XMR: 8BzUHdsNd7LPhYHPeMBne71sDBtmsPTsKXK3KHgiNsxxKX3PY851VB1MMaAFEZ9ZKT1vfx3JyV9z76ULTP19Q6mM7t8YcrV <br>
+              XKR: SEKReW4zpx4ASjgimi9u4hSe764Nj2CVJMsCgoDqE5EFCW3dwfEBmLUJwc4zBtK42LCXJXogqQ3Nb3DzdUXFMvGohjPBis17utL <br>
             </p>
         </td>
       </tr>
@@ -42,7 +52,7 @@
 
     <table class="copyright"></br></br></br>
       <tr>
-        <td align="center" colspan="2">
+        <td class="copyright-td" colspan="2">
           <font size="1" color="darkred">
             <p>Copyright &copy; 1999, Daniel Boye, All rights reserved.</p>
           </font>
@@ -79,24 +89,32 @@ table {
 }
 
 .intro-text {
-  text-align: center;
-  width: 85%;
   font-size: 16px;
   color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
 }
 
 .copyright {
   border: 0; 
   width: 100%;
 }
-
+.copyright-td {
+  align-items: center;
+  text-align: center;
+}
 
 
 .links {
   vertical-align: top;
   text-align: center;
-  width: 15%;
   font-size: 24px;
+  position: absolute;
+  right: 900px;
+  top: 100px;
 }
 
 
@@ -108,14 +126,6 @@ table {
   font-weight: 500;
   margin-top: 10px;
 }
-
-
-
-
-
-
-
-
 
 
 </style>
