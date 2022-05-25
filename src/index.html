@@ -1,0 +1,138 @@
+<html>
+
+<head>
+  <title>markfirth.com</title>
+</head>
+
+<body bgcolor="khaki" text="darkred" link="mediumblue" vlink="darkblue" alink="red">
+
+  <p class="welcome">
+    daniel boye
+  </p>
+
+    <table>
+      <tr>
+        <td class="links">
+          
+            <a href="https://www.linkedin.com/in/danielboye/">LinkedIn</a><br><br>
+            <a href="https://github.com/DanielBoye">GitHub</a>
+         
+        </td>
+
+        <td class="intro-text">
+            <p>Welcome to this simple website,<br>
+              taken straigt out of the 2000s.<br>
+              This site is free of CSS, JavaScript, PHP, etc.<br>
+              <img class="daniel-picture" src="daniel_in_suit.jpg">
+              <i>keep it super simple</i><br><br>
+              This site was inspired by websites I visited in the 90's<br>
+              <u>coming soon.</u> Page Counter
+            </p>
+        </td>
+      </tr>
+    </table>
+
+    <table border="0" width="100%"></br></br></br>
+      <tr>
+        <td align="center" colspan="2">
+          <font size="1" color="darkred">
+            <p>Copyright &copy; 1999, http://www.markfirth.com, All rights reserved.</p>
+          </font>
+        </td>
+      </tr>
+    </table>
+
+  </center>
+</body>
+
+</html>
+
+<style lang="scss">
+
+body {
+  background-color: khaki; 
+  text: darkred; 
+  
+}
+
+table {
+  border: 0; 
+  width: 100%;
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+
+.daniel-picture {
+  position: relative;
+  width: 100px;
+	
+	img {
+		position: absolute;
+		clip: rect(0, 1000px, 0px, 0);
+		animation: dialup 10s linear forwards; 
+	}
+}
+
+@keyframes dialup {
+	0% { clip: rect(0, 1000px, 0px, 0); }
+	10% { clip: rect(0, 1000px, 40px, 0); }
+	30% { clip: rect(0, 1000px, 80px, 0); }
+	70% { clip: rect(0, 1000px, 180px, 0); }
+	100% { clip: rect(0, 1000px, 300px, 0); }
+}
+
+.intro-text {
+  text-align: center;
+  width: 85%;
+  font-size: 16px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.links {
+  vertical-align: top;
+  text-align: center;
+  width: 15%;
+  font-size: 24px;
+}
+
+
+.welcome {
+  color: darkred;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+</style>
