@@ -1,43 +1,38 @@
 <html>
-
 <head>
   <title>90s style website</title>
 </head>
 
 <body>
-
-  <p class="welcome">
-    daniel boye
-  </p>
-
-    <table class="links">
-      <tr>
-        <td >
-          
-            <a href="https://www.linkedin.com/in/danielboye/">LinkedIn</a><br><br>
-            <a href="https://github.com/DanielBoye">GitHub</a><br><br>
-            <a href="https://caesarchiffer.netlify.app/">Portfolio</a>
-         
-        </td>
-      <tr>
-    </table>
+  <p class="welcome">daniel boye</p>
+    <div class="test">
+      <table class="links">
+        <tr>
+          <td>
+              <a href="https://www.linkedin.com/in/danielboye/">LinkedIn</a><br><br>
+              <a href="https://github.com/DanielBoye">GitHub</a><br><br>
+              <a href="https://caesarchiffer.netlify.app/">Portfolio</a>
+          </td>
+        <tr>
+      </table>
+    </div>
     <table> 
       <tr> 
         <td class="intro-text">
             <p>Hello and welcome <br><br>
               Daniel Boye is 16 years old and <br>
-              are focusing on cybersecurity, programming and blockchain. <br><br>
-              On the blockchain side he is contributing to the Kryptokrona project,  <br>
+              are focusing on cybersecurity, programming and blockchain technology. <br><br>
+              Contributer to the Kryptokrona project,  <br>
               to make a decentralized private communication and payment system. <br>
-              Just check out his work on <a href link="https://github.com/DanielBoye">GitHub!</a> <br>
+              Check it out on <a href link="https://github.com/DanielBoye">GitHub</a>. <br>
               <img class="daniel-picture" src="daniel_in_suit.jpg"> <br><br>
-              On the software development side he have been learning C, C++ and is dipping his toes in web development. <br>
+              Learning C, C++ and Javascript. Currently learning web development with Svelte. <br>
               The semester assignment is just build  with html, css and js, <br>
               It's not built in Svelte, but in the future......<br><br>
-              On the hacking side, <br>
-              I could not tell you what he does ;) <br><br> 
-              Daniel is also very committed to security and privacy, <br>
-              and is a heavy supporter of FOSS and the Monero project. <br><br>
+              Learning hacking, networking and Linux with, <br>
+              TryHackMe and Hackthebox Academy.<br><br> 
+              Committed to enhance security and privacy for regular people, <br>
+              and is a heavy supporter of <a href link="https://en.wikipedia.org/wiki/Free_and_open-source_software">FOSS</a> and the <a href link="https://www.getmonero.org/get-started/what-is-monero/">Monero project</a>. <br><br>
               This site was inspired by websites from the 90's<br><br>
               Donate: <br>
               BTC: bc1q45dq7rd3q5papsmpu758vt5frcghy6f6u04cgm <br>
@@ -47,16 +42,14 @@
         </td>
       </tr>
     </table>
-
     <table class="copyright"></br></br></br>
       <tr>
-        <td class="copyright-td" colspan="2">
+        <td class="footer" colspan="2">
             <p>Copyright &copy; 1999, Daniel Boye, All rights reserved.</p>
         </td>
       </tr>
     </table>
 </body>
-
 </html>
 
 <style lang="scss">
@@ -64,7 +57,6 @@
 body {
   background-color: khaki; 
   text: darkred; 
-  
 }
 
 table {
@@ -79,7 +71,6 @@ table {
   position: relative;
   width: 300px;
   margin-top: 10px;
-
 }
 
 .intro-text {
@@ -88,39 +79,45 @@ table {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  
-  
 }
 
 .copyright {
   border: 0; 
   width: 100%;
 }
-.copyright-td {
-  align-items: center;
-  text-align: center;
-  font-size: 10px;
-  color: darkred;
+
+.test {
+  position: relative;
 }
-
-
 .links {
   vertical-align: top;
   text-align: center;
   font-size: 24px;
   position: absolute;
-  right: 900px;
-  top: 100px;
+  right: 43%;
+  top: -30px;
 }
 
 
 .welcome {
   color: darkred;
   display: flex;
+  position: relative;
   justify-content: center;
   font-size: 48px;
-  font-weight: 500;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer {
+
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+  color: darkred;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 </style>
